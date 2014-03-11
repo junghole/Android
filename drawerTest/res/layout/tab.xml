@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tabRow0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/tab_favorite"
+            android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+            android:src="@drawable/ic_a" />
+
+        <ImageButton
+            android:id="@+id/tab_recent"
+            android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+            android:src="@drawable/ic_a" />
+
+        <ImageButton
+            android:id="@+id/tab_onSwitch"
+            android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+            android:src="@drawable/ic_a" />
+
+        <ImageButton
+            android:id="@+id/tab_offSwitch"
+            android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+            android:src="@drawable/ic_a" />
+
+        <ImageButton
+            android:id="@+id/tab_allSwitch"
+            android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+            android:src="@drawable/ic_a" />    
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tabRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/allOn"
+            android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+            android:text="All On" />
+
+        <Button
+            android:id="@+id/allOff"
+            android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+            android:text="All Off" />
+	</TableRow>
+
+    <ListView
+        android:id="@+id/tab_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
